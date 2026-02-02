@@ -1,0 +1,143 @@
+.monthly-tasks.page {
+  padding: 2rem;
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.monthly-tasks h1 {
+  margin-bottom: 0.5rem;
+  color: #1e293b;
+}
+
+.monthly-tasks .subtitle {
+  color: #64748b;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.monthly-tasks .task-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.monthly-tasks .task-input {
+  flex: 1;
+  min-width: 140px;
+  padding: 0.75rem 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.monthly-tasks .task-input:focus {
+  outline: none;
+  border-color: #38bdf8;
+  box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.2);
+}
+
+.date-input {
+  padding: 0.75rem 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.date-input:focus {
+  outline: none;
+  border-color: #38bdf8;
+}
+
+.monthly-tasks .btn {
+  padding: 0.75rem 1.25rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.monthly-tasks .btn-primary {
+  background: #38bdf8;
+  color: #0f172a;
+}
+
+.monthly-tasks .btn-primary:hover {
+  background: #0ea5e9;
+}
+
+.monthly-tasks .btn-delete {
+  background: #fef2f2;
+  color: #dc2626;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.85rem;
+}
+
+.monthly-tasks .btn-delete:hover {
+  background: #fee2e2;
+}
+
+.monthly-tasks .task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.monthly-tasks .task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: #f8fafc;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  border: 1px solid #e2e8f0;
+}
+
+.monthly-tasks .task-item.done .task-title {
+  text-decoration: line-through;
+  color: #94a3b8;
+}
+
+.task-content {
+  cursor: pointer;
+  flex: 1;
+  user-select: none;
+}
+
+.task-title {
+  display: block;
+  font-weight: 500;
+}
+
+.task-date {
+  font-size: 0.875rem;
+  color: #64748b;
+}
+
+.monthly-tasks .empty-state {
+  color: #94a3b8;
+  padding: 1.5rem;
+  text-align: center;
+  background: #f1f5f9;
+  border-radius: 8px;
+}
+
+.task-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.monthly-tasks .btn-done {
+  background: #dcfce7;
+  color: #166534;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.85rem;
+}
+
+.monthly-tasks .btn-done.is-done {
+  background: #bbf7d0;
+}
